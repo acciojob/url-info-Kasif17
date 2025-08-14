@@ -1,6 +1,14 @@
 //your JS code here. If required.
-let currentUrl = location.href;
+function showUrlLength() {
+   
+    let userUrl = prompt("Enter your URL:");
 
-let lenthUrl = currentUrl.length;
+    if (userUrl) {
+        let urlLength = userUrl.length;
+        alert("The length of the URL is: " + urlLength);
+    } else {
+        alert("No URL entered!");
+    }
+}
 
-alert("The length of the URL is: " + urlLength);
+showUrlLength();

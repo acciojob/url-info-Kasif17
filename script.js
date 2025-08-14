@@ -1,9 +1,9 @@
 //your JS code here. If required.
-function UrlLength(){
-	 let currentUrl = location.href;
-
+function UrlLength() {
+    let currentUrl = location.href;
     let urlLength = currentUrl.length;
-	return urlLength
+    return urlLength;
 }
-const input = prompt("Enter a string");
-alert(UrlLength(input)); 
+
+let lengthOfUrl = UrlLength(); 
+alert("The length of the URL is: " + lengthOfUrl); 
